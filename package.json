@@ -1,0 +1,26 @@
+{
+  "name": "addu-profs-backend",
+  "version": "1.0.0",
+  "description": "Backend service for Rate AdDU Professors",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/sonroyaalmerol/upd-cds-backend-ekalay.git",
+  "author": "Son Roy Almerol <sonroya.almerol@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.7.0",
+    "fastify": "^2.10.0",
+    "fastify-cors": "^2.1.3",
+    "fastify-formbody": "^3.1.0",
+    "fastify-helmet": "^3.0.2",
+    "fastify-mongodb": "^2.0.0",
+    "fastify-oas": "^2.5.0",
+    "http-errors": "^1.7.3",
+    "mongoose": "^5.7.8",
+    "nodemon": "^1.19.4"
+  }
+}
