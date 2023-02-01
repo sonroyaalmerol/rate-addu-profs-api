@@ -20,7 +20,7 @@
     "fastify-mongodb": "^2.0.0",
     "fastify-oas": "^2.5.0",
     "http-errors": "^1.7.3",
-    "mongoose": "^5.7.8",
+    "mongoose": "^5.13.15",
     "nodemon": "^1.19.4"
   }
 }
